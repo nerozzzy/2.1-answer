@@ -136,7 +136,7 @@ def main():
         print("9. Избранные книги")
         print("0. Выход")
 
-        choice = input("Выберите действие: ")
+        choice = input("Выберите номер действия: ")
 
         if choice == "1":
             add_book(books)
